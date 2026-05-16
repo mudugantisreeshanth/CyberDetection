@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <p>
+    sudo apt update
+    sudo apt install docker.io -y
+    sudo service apache2 start     sudo service mysql start     sudo systemctl enable docker --now
+    sudo docker pull vulnerables/web-dvwa
+    sudo docker run -d -p 127.0.0.1:42001:80 --name dvwa vulnerables/web-dvwa
+    http://127.0.0.1:42001(open in browser)
+  </p>
+</body>
+</html>
